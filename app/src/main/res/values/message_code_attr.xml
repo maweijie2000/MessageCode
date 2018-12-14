@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--验证码layout-->
+    <declare-styleable name="MessageCodeLayout">
+        <attr name="box_input_color" format="reference"></attr>//输入框输入状态颜色
+        <attr name="box_no_input_color" format="reference"></attr>//输入框未输入状态颜色
+        <attr name="box_inputed_color" format="reference"></attr>//输入框已输入完状态颜色
+        <attr name="text_color" format="color"></attr>//字体颜色
+
+        <attr name="interval_width" format="dimension"></attr>//间隔
+        <attr name="item_width" format="dimension"></attr>//子View宽
+        <attr name="item_height" format="dimension"></attr>//子View高
+        <attr name="draw_txt_size" format="dimension"></attr>//文本大小
+        <attr name="draw_box_line_size" format="dimension"></attr>//输入线条大小
+
+        <attr name="pass_leng">//密码长度 只考虑4 6 8
+            <flag name="four" value="4" />
+            <flag name="six" value="6" />
+            <flag name="eight" value="8" />
+        </attr>
+    </declare-styleable>
+
+
+</resources>
