@@ -2,14 +2,14 @@
 #使用方法
 
 #在xml中调用
-#<com.mwj.messagecode.messagecode.MessageCodeLayout
+<com.mwj.messagecode.messagecode.MessageCodeLayout
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:focusable="true"
+        android:focusable="true"
          android:focusableInTouchMode="true"
          android:longClickable="false"
          app:draw_txt_size="14sp"
-         app:interval_width="3dp"
+        app:interval_width="3dp"
          app:item_height="50dp"
          app:item_width="20dp"
          app:pass_leng="four"
