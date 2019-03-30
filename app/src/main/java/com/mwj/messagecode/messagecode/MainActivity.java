@@ -1,8 +1,10 @@
 package com.mwj.messagecode.messagecode;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import com.mwj.cus.messagecode.MessageCodeLayout;
 
 public class MainActivity extends AppCompatActivity {
 

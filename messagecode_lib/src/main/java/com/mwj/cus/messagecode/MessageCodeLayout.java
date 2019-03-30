@@ -1,4 +1,4 @@
-package com.mwj.messagecode.messagecode;
+package com.mwj.cus.messagecode;
 
 import android.content.Context;
 import android.content.res.TypedArray;
