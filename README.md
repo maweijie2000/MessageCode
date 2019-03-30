@@ -1,6 +1,7 @@
 # MessageCode
 #使用方法
 
+1、
          allprojects {
                            repositories {
                                     ...
@@ -8,7 +9,7 @@
                            }
                   }
                   
-        
+2、
         
         dependencies {
 	        implementation 'com.github.maweijie2000:MessageCode:1.0.0'
